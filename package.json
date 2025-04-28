@@ -1,0 +1,29 @@
+{
+  "name": "squirrel-repeller",
+  "version": "1.0.0",
+  "description": "A tool for auto-closing windows and tabs to help me focus",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebosite/squirrel-repeller.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nebosite/squirrel-repeller/issues"
+  },
+  "homepage": "https://github.com/nebosite/squirrel-repeller#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
